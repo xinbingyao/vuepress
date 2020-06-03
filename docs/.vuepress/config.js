@@ -1,7 +1,7 @@
 module.exports = {
   base: '/',
   port: '9345',
-  title: '4maz1nG の home',
+  title: '4maz1nG の ホーム',
   description: '4maz1nG の 前端记录',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],//浏览器的标签栏的网页图标，第一个'/'会遍历public文件夹的文件
