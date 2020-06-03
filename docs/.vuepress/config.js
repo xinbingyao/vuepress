@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/dist',
+  base: '/',
   port: '9345',
   title: '4maz1nG の home',
   description: '4maz1nG の 前端记录',
