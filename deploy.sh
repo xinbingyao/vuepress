@@ -13,6 +13,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f https://github.com/xinbingyao/amazing.github.io.git master
+git push -f https://github.com/xinbingyao/xinbingyao.github.io.git master
 
 cd -
