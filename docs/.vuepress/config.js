@@ -1,7 +1,7 @@
 module.exports = {
   base: '/',
   port: '9345',
-  title: '4maz1nG の ホーム',
+  title: '',
   description: '4maz1nG の 前端记录',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],//浏览器的标签栏的网页图标，第一个'/'会遍历public文件夹的文件
@@ -26,19 +26,20 @@ module.exports = {
     sidebar: {
       '/pages/folder1/': [
         {
-          title: '测试菜单1',   // 一级菜单名称
+          title: '菜单1',   // 一级菜单名称
           collapsable: false, // false为默认展开菜单, 默认值true是折叠,
           sidebarDepth: 1,    //  设置侧边导航自动提取markdown文件标题的层级，默认1为h2层级
           children: [
-            ['2.md', '子菜单1'],  //菜单名称为'子菜单1'，跳转至/pages/folder1/test1.md
-            ['3.md', '子菜单2']
+            ['2.md', '子菜单1-1'],  //菜单名称为'子菜单1'，跳转至/pages/folder1/test1.md
+            ['3.md', 'Callback'],
+            ['4.md', 'Promise']
           ]
         },
         {
-          title: '测试菜单2',
+          title: '菜单2',
           collapsable: false,
           children: [
-            ['test1.md', '子菜单1']
+            ['test1.md', '子菜单2-1']
           ]
         }
       ],
