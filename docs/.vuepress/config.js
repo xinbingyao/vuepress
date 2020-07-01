@@ -32,7 +32,8 @@ module.exports = {
           children: [
             ['2.md', '子菜单1-1'],  //菜单名称为'子菜单1'，跳转至/pages/folder1/test1.md
             ['3.md', 'Callback'],
-            ['4.md', 'Promise']
+            ['4.md', 'Promise'],
+            ['5.md', 'Generator']
           ]
         },
         {
