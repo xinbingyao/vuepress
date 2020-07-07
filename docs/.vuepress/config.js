@@ -31,9 +31,10 @@ module.exports = {
           sidebarDepth: 1,    //  设置侧边导航自动提取markdown文件标题的层级，默认1为h2层级
           children: [
             ['2.md', '子菜单1-1'],  //菜单名称为'子菜单1'，跳转至/pages/folder1/test1.md
-            ['3.md', 'Callback'],
-            ['4.md', 'Promise'],
-            ['5.md', 'Generator']
+            ['回调函数.md', 'Callback'],
+            ['promise.md', 'Promise'],
+            ['generator.md', 'Generator'],
+            ['es.md', 'ES基础核心内容']
           ]
         },
         {
