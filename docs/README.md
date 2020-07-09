@@ -4,7 +4,7 @@ heroImage: /penhuo.jpg
 heroText: 4maz1nG的前端记录
 tagline: 是时候表演真正的技术了！
 actionText: Get Started →
-actionLink: /pages/folder1/2.md
+actionLink: /pages/zf/回调函数.md
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
