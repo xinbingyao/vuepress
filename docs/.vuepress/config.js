@@ -24,33 +24,36 @@ module.exports = {
     ],
     //侧边导航栏：会根据当前的文件路径是否匹配侧边栏数据，自动显示/隐藏
     sidebar: {
-      '/pages/zf/': [
+      '/pages/': [
         {
           title: 'Javascript',   // 一级菜单名称
           collapsable: true, // false为默认展开菜单, 默认值true是折叠,
           sidebarDepth: 1,    //  设置侧边导航自动提取markdown文件标题的层级，默认1为h2层级
           children: [
-            // ['2.md', '子菜单1-1'],  //菜单名称为'子菜单1'，跳转至/pages/folder1/test1.md
             ['callback/callback.md', 'Callback'],
             ['promise/promise.md', 'Promise'],
             ['generator/generator.md', 'Generator生成器'],
             ['es/es.md', 'ES基础核心内容'],
             ['es-module/es-module.md', 'ES Module'],
-            ['http/index.md', 'HTTP']
+            ['http/http.md', 'HTTP'],
+            ['curry/curry.md', '函数柯里化'],
+            ['es/es-template.md', 'ES模板引擎'],
+            ['call-apply-bind/call-apply-bind.md', 'call apply bind原理'],
+            ['data-structor/data-structor.md', '数据结构']
           ]
         },
         {
           title: 'Vue2',
           collapsable: true,
           children: [
-            ['test1.md', '子菜单2-1']
+            ['1.md', '子菜单2-1']
           ]
         },
         {
-          title: '面试',
+          title: 'other',
           collapsable: true,
           children: [
-            ['常见面试题/index.md', 'Interview']
+            ['mianshi/mianshi.md', 'Interview']
           ]
         }
       ],
