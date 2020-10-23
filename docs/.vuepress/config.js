@@ -39,7 +39,9 @@ module.exports = {
             ['curry/curry.md', '函数柯里化'],
             ['es/es-template.md', 'ES模板引擎'],
             ['call-apply-bind/call-apply-bind.md', 'call apply bind原理'],
-            ['data-structor/data-structor.md', '数据结构']
+            ['data-structor/data-structor.md', '数据结构'],
+            ['reduce/reduce.md', 'Reduce Compose'],
+            ['eventloop/eventloop.md', 'js事件环']
           ]
         },
         {
@@ -53,6 +55,7 @@ module.exports = {
           title: 'other',
           collapsable: true,
           children: [
+            ['viewport/viewport.md', 'Viewport'],
             ['mianshi/mianshi.md', 'Interview']
           ]
         }
