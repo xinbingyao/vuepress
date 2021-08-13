@@ -64,8 +64,8 @@ co(read()).then(data => {
 // 自己写一个co
 function co(it) {
   return new Promise((resolve, reject) => {
-    function next() { // 异步迭代需要借助next函数
-      let { value, done } = it.next()
+    function next(val) { // 异步迭代需要借助next函数
+      let { value, done } = it.next(val)
       if (done) { // 如果迭代完成，就将结果作为这个promise的结果就可以了
         resolve(value)
       } else {
