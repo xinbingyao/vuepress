@@ -45,10 +45,58 @@ module.exports = {
           ]
         },
         {
+          title: 'Webpack',
+          collapsable: true,
+          children: [
+            ['webpack/webpack.md', 'webpack'],
+            ['webpack/bundle-analyze', '打包分析'],
+            ['webpack/dynamic-loading', '动态加载'],
+            ['webpack/cdn', 'CDN加速'],
+            ['webpack/tree-shaking', '摇树'],
+            ['webpack/optimize', '优化'],
+          ]
+        },
+        {
           title: 'Vue2',
           collapsable: true,
           children: [
-            ['1.md', '子菜单2-1']
+            ['1.md', '子菜单2-1'],
+          ]
+        },
+        {
+          title: 'Vue2源码',
+          collapsable: true,
+          children: [
+            {
+              title: 'observe',
+              collapsable: true,
+              children: [
+                ['vue/observe/idx.md', 'index.js'],
+                ['vue/observe/array.md', 'array.js'],
+                ['vue/observe/dep.md', 'dep.js'],
+                ['vue/observe/observer.md', 'observer.js'],
+                ['vue/observe/watcher.md', 'watcher.js'],
+              ]
+            },
+            {
+              title: 'vdom',
+              collapsable: true,
+              children: [
+                ['vue/vdom/idx.md', 'index.js'],
+                ['vue/vdom/create-element.md', 'create-element.js'],
+                ['vue/vdom/h.md', 'h.js'],
+                ['vue/vdom/patch.md', 'patch.js'],
+              ]
+            },
+            ['vue/util.md', 'util.js'],
+            ['vue/idx.md', 'index.js']
+          ]
+        },
+        {
+          title: 'vue-router',
+          collapsable: true,
+          children: [
+            ['vue-router/vue-router.md', 'vue-router']
           ]
         },
         {
