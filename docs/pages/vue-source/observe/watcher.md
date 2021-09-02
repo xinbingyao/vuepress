@@ -77,6 +77,8 @@ class Watcher { // 每一个watch都有一个唯一标识
     if (this.lazy) {
       // 计算属性依赖的值变化了 稍后取值时重新计算即可
       this.dirty = true
+    } else if (this.sync) { // 是同步watcher，立即执行
+      this.run()
     } else {
       queueWatcher(this)
     }

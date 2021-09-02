@@ -60,7 +60,9 @@ module.exports = {
           title: 'Vue2',
           collapsable: true,
           children: [
-            ['1.md', '子菜单2-1'],
+            ['1.md', 'mark'],
+            ['vue/life-cycle.md', '生命周期'],
+            ['vue/component.md', '组件']
           ]
         },
         {
@@ -71,32 +73,61 @@ module.exports = {
               title: 'observe',
               collapsable: true,
               children: [
-                ['vue/observe/idx.md', 'index.js'],
-                ['vue/observe/array.md', 'array.js'],
-                ['vue/observe/dep.md', 'dep.js'],
-                ['vue/observe/observer.md', 'observer.js'],
-                ['vue/observe/watcher.md', 'watcher.js'],
+                ['vue-source/observe/idx.md', 'index.js'],
+                ['vue-source/observe/array.md', 'array.js'],
+                ['vue-source/observe/dep.md', 'dep.js'],
+                ['vue-source/observe/observer.md', 'observer.js'],
+                ['vue-source/observe/watcher.md', 'watcher.js'],
               ]
             },
             {
               title: 'vdom',
               collapsable: true,
               children: [
-                ['vue/vdom/idx.md', 'index.js'],
-                ['vue/vdom/create-element.md', 'create-element.js'],
-                ['vue/vdom/h.md', 'h.js'],
-                ['vue/vdom/patch.md', 'patch.js'],
+                ['vue-source/vdom/idx.md', 'index.js'],
+                ['vue-source/vdom/create-element.md', 'create-element.js'],
+                ['vue-source/vdom/h.md', 'h.js'],
+                ['vue-source/vdom/patch.md', 'patch.js'],
               ]
             },
-            ['vue/util.md', 'util.js'],
-            ['vue/idx.md', 'index.js']
+            ['vue-source/util.md', 'util.js'],
+            ['vue-source/idx.md', 'index.js']
+          ]
+        },
+        {
+          title: 'vuex',
+          collapsable: true,
+          children: [
+            ['vuex/idx.md', 'store.js'],
+            ['vuex/vuex.md', 'vuex.js'],
+            ['vuex/plugin.md', 'vuex插件']
           ]
         },
         {
           title: 'vue-router',
           collapsable: true,
           children: [
-            ['vue-router/vue-router.md', 'vue-router']
+            ['vue-router/idx.md', 'router.js'],
+            ['vue-router/vue-router.md', 'index.js'],
+            ['vue-router/install.md', 'install.js'],
+            ['vue-router/create-matcher.md', 'create-matcher.js'],
+            ['vue-router/create-router-map.md', 'create-router-map.js'],
+            {
+              title: 'history',
+              collapsable: true,
+              children: [
+                ['vue-router/history/base.md', 'base.js'],
+                ['vue-router/history/hash.md', 'hash.js'],
+              ]
+            },
+            {
+              title: 'components',
+              collapsable: true,
+              children: [
+                ['vue-router/components/router-link.md', 'router-link.js'],
+                ['vue-router/components/router-view.md', 'router-view.js'],
+              ]
+            }
           ]
         },
         {
