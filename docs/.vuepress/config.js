@@ -41,7 +41,8 @@ module.exports = {
             ['call-apply-bind/call-apply-bind.md', 'call apply bind原理'],
             ['data-structor/data-structor.md', '数据结构'],
             ['reduce/reduce.md', 'Reduce Compose'],
-            ['eventloop/eventloop.md', 'js事件环']
+            ['eventloop/eventloop.md', 'js事件环'],
+            ['cross-origin-resource-sharing/cors.md', '跨域通信']
           ]
         },
         {
