@@ -16,6 +16,10 @@ class HashHistory extends History {
     // 确保页面一加载就要有hash值
     ensureSlash();
   }
+
+  getCurrentLocation() {
+    return window.location.hash.slice(1)
+  }
 }
 
 export default HashHistory
