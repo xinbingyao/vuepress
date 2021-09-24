@@ -136,7 +136,8 @@ module.exports = {
           collapsable: true,
           children: [
             ['viewport/viewport.md', 'Viewport'],
-            ['mianshi/mianshi.md', 'Interview']
+            ['mianshi/mianshi.md', 'Interview'],
+            ['jwt/jwt.md', 'JWT']
           ]
         },
         {
